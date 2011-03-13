@@ -1,0 +1,61 @@
+body {
+margin:0px;
+}
+#header {
+height:60px;
+background-image:url('../images/header-bg.png');
+background-repeat:repeat-x;
+}
+
+#logo {
+height:100%;
+width:80%;
+background-image:url('../images/logo.png');
+background-repeat:no-repeat;
+margin-left:auto;
+margin-right:auto;
+}
+
+#container {
+width:80%;
+margin-left:auto;
+margin-right:auto;
+margin-top:-20px;
+}
+
+#left {
+width:20%;
+height:100%;
+float:left;
+
+}
+
+#content {
+height:100%;
+width:77%;
+float:right;
+padding-left:20px;
+border-style:solid;
+border-width:0px 1px 1px 1px;
+border-color:grey;
+}
+
+#login_panel {
+width:90%;
+height:100%;
+margin-left:auto;
+margin-right:auto;
+}
+
+#help_hide {
+text-align: right;
+margin-bottom: 10px;
+
+}
+
+#nav_panel {
+width:90%;
+height:100%;
+margin-bottom: 10px;
+
+}
