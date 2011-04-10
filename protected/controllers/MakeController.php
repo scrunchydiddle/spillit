@@ -15,7 +15,11 @@ class MakeController extends CController
 	
 	public function actionHello()
 	{
-		echo 'HELLLLOOOOOO';
+		$arr = array( 	'foo' => 'bar',
+				'bat' => 'baz'
+		);
+		echo CJSON::encode($arr);
+	
 	}
 	
 	public function actionContact()
